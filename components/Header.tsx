@@ -5,7 +5,8 @@ function Header() {
   return (
     <div>
         <div>
-            <Image src='/logo.jpg' alt='next' width={500} height={500}/>
+            <Image src='/logo.jpg' alt='next' width={200} height={200}/>
+            <h2 className='text-[25px] text-red-500'>Discover</h2>
         </div>
     </div>
   )
