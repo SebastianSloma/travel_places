@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 function Header() {
   return (
-    <div>
+    <div className='flex justify-between p-5 shadow-sm'>
         <div className='flex gap-3 items-center'>
             <Image src='/logo.png' alt='next' width={50} height={50}/>
             <h2 className='text-[25px] font-semibold text-red-500 tracking-widest'>Discover</h2>
         </div>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
+        <ul className='flex gap-8 items-center'>
+          <li className='text-[18px] hover:text-red-500 cursor-pointer'>Home</li>
+          <li className='text-[18px] hover:text-red-500 cursor-pointer'>About Us</li>
+          <li className='text-[18px] hover:text-red-500 cursor-pointer'>Contact Us</li>
         </ul>
     </div>
   )
