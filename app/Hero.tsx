@@ -10,7 +10,7 @@ function Hero() {
 					alt='bg'
 					width={800}
 					height={200}
-					className='w-full absolute mt-[-100px]'
+					className='w-full absolute mt-[-100px]z-5'
 				/>
 
 				<div className='mt-[40px] z-10'>
