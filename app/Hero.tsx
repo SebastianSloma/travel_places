@@ -18,7 +18,7 @@ function Hero() {
 						TRAVEL
 					</h2>
 					<h2 className='text-[20px]'>Your Amazing City</h2>
-					<div className='mt-5 z-10 flex-gap-2 items-center justify-center'>
+					<div className='mt-5 z-10 flex gap-2 items-center justify-center'>
 						<input
 							type='text'
 							placeholder='Search Anything'
@@ -40,6 +40,9 @@ function Hero() {
 								/>
 							</svg>
 						</button>
+					</div>
+					<div>
+						<h2>Or Browse The Category</h2>
 					</div>
 				</div>
 			</div>
